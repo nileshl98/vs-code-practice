@@ -3,7 +3,7 @@
 <%@page import="java.io.FileWriter" %>
 <%@page import="java.util.Date" %>
 <%@page import="java.util.Scanner" %>
-<%
+<%hh
 /** Log POSTs at / to a file **/
 if ("POST".equalsIgnoreCase(request.getMethod())) {
         BufferedWriter writer = new BufferedWriter(new FileWriter("/tmp/sample-app.log", true));
